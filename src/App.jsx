@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="container">
       <Avatar />
-      <Header />
-      <Content />
-      <Footer />
+      <section className="main-content">
+        <Header />
+        <Content />
+      </section>
+      <Footer />      
     </div>
   );
 }
