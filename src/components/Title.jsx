@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Header() {
+export default function Title() {
   return (
-    <header>
+    <section className="title">
       <h1>Jay Kasiphat</h1>
       <h2>Software Engineer</h2>
       <p>
@@ -26,6 +26,6 @@ export default function Header() {
           Contact me
         </a>
       </button>
-    </header>
+    </section>
   );
 }

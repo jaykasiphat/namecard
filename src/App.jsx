@@ -1,18 +1,20 @@
 import React from "react";
 import Avatar from "./components/Avatar";
-import Header from "./components/Header";
+import Title from "./components/Title";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="container">
-      <Avatar />
-      <section className="main-content">
-        <Header />
+      <header>
+        <Avatar />
+      </header>
+      <main className="main-content">
+        <Title />
         <Content />
-      </section>
-      <Footer />      
+      </main>
+      <Footer />
     </div>
   );
 }

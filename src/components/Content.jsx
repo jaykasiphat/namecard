@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
   return (
-    <main>
+    <section>
       <h3>About</h3>
       <p>
         I am a software engineer with a passion for solving problems and
@@ -12,6 +12,6 @@ export default function Content() {
       </p>
       <h3>Interests</h3>
       <p>Fingerstyle guitarist. Dad of a dog. Reader.</p>
-    </main>
+    </section>
   );
 }
