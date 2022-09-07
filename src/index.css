@@ -8,10 +8,14 @@ h2 {
   margin: 0;
 }
 
-body {
-  padding: 0;
-  background: #23252c;
+body,
+.main-link {
   color: #fff;
+}
+
+body {
+  padding: 1em;
+  background: #23252c;
   font-family: "Inter", sans-serif;
 }
 
@@ -38,6 +42,14 @@ button {
 
 h3 {
   margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-link {
+  color: #374151;
 }
 
 button,
